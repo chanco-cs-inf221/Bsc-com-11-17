@@ -1,0 +1,108 @@
+
+body{
+    background-color: #000011
+}
+
+.profile{
+    background-color: #3399ff;
+    border-radius: 20px;
+    background-image: url(foto/af.jpg);
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 2px rgb(56, 56, 58);
+}
+#ppname{
+    font-family: forte;
+    text-align: center;
+    background-color: rgb(56, 56, 58);
+    border-radius: 20px;
+    
+    color:#dddddd;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+.ppic{
+    
+    height:200px; width:200px;
+    margin-left:350px;
+    border:solid 5px #888888;
+    border-radius: 100px;
+
+}
+.links{
+   display: inline-block;
+   margin-right: 30%;
+
+   
+}
+.git{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+
+}
+.twit,.fb,.inst {
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    border: solid 2px rgb(11, 11, 80);
+}
+#projname{
+    text-align:center;
+    background-color:rgb(11, 11, 80);
+    color:white;
+}
+.projects>div{
+    background-color:#121518; 
+    border-radius:20px;
+    color: whitesmoke;
+    
+    }
+
+.projects>div>h3 {
+    font-family: impact;
+    text-align:center;
+    background-color: #3d0303;
+    color:#ccc;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.projects>div>p{
+    margin-left:50px;
+
+}
+
+.work{
+    border: solid 2px greenyellow;
+    border-radius:20px
+}
+.work>div{
+    
+    border-radius: 15px;
+    background-color: #dddddd;
+}
+#wname{
+    
+    background-color:greenyellow;
+    text-align: center;
+    color: #660000;
+  
+}
+.wteacher{
+    text-align: center;
+    background-color: #555555;
+}
+.work>div>h3, .work>div>p{
+  text-align: center;
+}
+}
+#pli{
+    margin-left: 20px;
+}
